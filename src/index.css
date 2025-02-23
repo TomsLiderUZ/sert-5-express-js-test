@@ -1,0 +1,18 @@
+:root {
+  --background: #0c0c0c;
+  --cardBgOff: #ffffff0b;
+  --cardBdOff: #646464;
+  --cardBgOn: #ffffff1f;
+  --cardBdOn: #969696;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
