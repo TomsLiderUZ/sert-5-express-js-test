@@ -7,7 +7,7 @@ const Home = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/data-base");
+      const response = await fetch("https://sert-5-express-js-test-production.up.railway.app/data-base");
       const result = await response.json();
       setData(result);
     } catch (error) {
@@ -26,7 +26,7 @@ const Home = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/submit", {
+      const response = await fetch("https://sert-5-express-js-test-production.up.railway.app/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
