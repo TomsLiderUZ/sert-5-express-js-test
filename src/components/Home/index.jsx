@@ -58,7 +58,7 @@ const Home = () => {
         <tbody>
           {data.map((item, index) => (
             <tr key={index}>
-              <Td>{(index)} - {item.message}</Td>
+              <Td>({index}) - {item.message}</Td>
             </tr>
           ))}
         </tbody>
